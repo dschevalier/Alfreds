@@ -1,0 +1,291 @@
+        /*---FOR WIDTHS FROM 1024 TO 1200PX---*/
+        
+        @media only screen and (max-width: 1200px) {
+            .hero-textbox {
+                width: 100%;
+                padding: 0 2%;
+            }
+            .row {
+                padding: 0 2%;
+            }
+            .long-copy {
+                width: 100%;
+                margin-left: 0;
+            }
+            .plan-box {
+                width: 100%;
+            }
+        }
+        /*---FOR WIDTHS FROM 768PX TO 1023PX---*/
+        
+        @media only screen and (max-width: 1023px) {
+            body {
+                font-size: 18px;
+            }
+            section {
+                padding: 30px;
+            }
+            .long-copy {
+                width: 100%;
+                margin-left: 0;
+            }
+            .icon-small {
+                width: 17px;
+                margin-right: 5px;
+            }
+            .icon-big {
+                font-size: 200%;
+            }
+            .menu-box {
+                width: 85%;
+                margin-left: 15%;
+            }
+            .menu-header {
+                font-size: 105%;
+            }
+            .menu-title {
+                font-size: 90%;
+                margin-top: 15%;
+            }
+            .menu-description {
+                font-size: 85%;
+            }
+            .menu-price {
+                font-size: 85%;
+            }
+            .plan-box {
+                width: 100%;
+            }
+            .plan-price {
+                font-size: 250%;
+                margin-bottom: 10px;
+                font-weight: 100;
+                color: #1EA87F;
+            }
+            .plan-price span {
+                font-size: 40%;
+                font-weight: 300;
+            }
+            .plan-price-tagline {
+                font-size: 80%;
+            }
+            .plan-box ul {
+                font-size: 75%;
+            }
+            .plan-price li {
+                padding: 5px 0;
+            }
+            blockquote {
+                font-size: 85%;
+                margin-top: 20px;
+            }
+            .location-details {
+                font-size: 90%;
+            }
+            footer {
+                padding: 3%;
+                font-size: 90%;
+            }
+        }
+        /*---FOR WIDTHS FROM 481PX TO 767PX---*/
+        
+        @media only screen and (max-width: 767px) {
+            body {
+                font-size: 16px;
+            }
+            section {
+                padding: 30px 0;
+            }
+            .row,
+            .hero-text-box {
+                padding: 0 4%;
+            }
+            .btn:link,
+            .btn:visited {
+                margin-bottom: 3%;
+            }
+            .col {
+                width: 100%;
+                margin: 0 0 4% 0;
+            }
+            .main-nav {
+                display: none;
+            }
+            .mobile-nav-icon {
+                display: inline-block;
+                position: relative;
+                z-index: 9999;
+            }
+            .main-nav {
+                float: none;
+                position: absolute;
+                z-index: 8888;
+                width: 100%;
+                height: auto;
+                margin: 0;
+                margin-left: -4%;
+                background-color: #1EA87F;
+                text-align: center;
+                padding-top: 3vh;
+                padding-bottom: 3vh;
+            }
+            .main-nav li {
+                display: block;
+                margin-left: 0;
+                font-size: 110%;
+            }
+            .main-nav li a:link,
+            .main-nav li a:visited {
+                display: block;
+                border: 0;
+                padding: 10px 0;
+                font-size: 100%;
+            }
+            .sticky .main-nav {
+                margin-top: 0;
+            }
+            .sticky .main-nav li a:link,
+            .sticky .main-nav li a:visited {
+                padding: 10px 0;
+                color: #fff;
+            }
+            .sticky .mobile-nav-icon {
+                margin-top: 10px;
+            }
+            .sticky .mobile-nav-icon i {
+                color: #555;
+            }
+            .sticky .mobile-nav-icon i.ion-close-round {
+                color: #fff;
+            }
+            h1 {
+                font-size: 150%;
+                margin-top: 15%;
+            }
+            h2 {
+                font-size: 145%;
+            }
+            .long-copy {
+                width: 100%;
+                margin-left: 0%;
+                font-size: 90%;
+            }
+            header {
+                background-attachment: scroll;
+            }
+            .menu-box {
+                width: 85%;
+                margin-left: 5%;
+            }
+            .menu-header {
+                font-size: 110%;
+                margin-bottom: 1%;
+            }
+            .menu-title {
+                font-size: 90%;
+                margin-top: 2%;
+            }
+            .menu-description {
+                font-size: 85%;
+            }
+            .menu-price {
+                font-size: 85%;
+            }
+            .plan-box {
+                width: 100%;
+                margin-left: 0%;
+            }
+            .section-feedback {
+                background-attachment: scroll;
+            }
+            footer {
+                padding: 3%;
+                font-size: 85%;
+            }
+            .footer-nav,
+            .social-links {
+                display: inline-block;
+            }
+            .footer-nav {
+                float: left;
+            }
+            .social-links {
+                float: left;
+            }
+            .footer-nav li,
+            .social-links li {
+                display: inline-block;
+                margin-right: 5%;
+                margin-bottom: 3%;
+            }
+            footer p {
+                margin-top: 10px;
+            }
+        }
+        /*---FOR WIDTHS FROM 0PX TO 480PX---*/
+        
+        @media only screen and (max-width: 480px) {
+            section {
+                padding: 25px 0;
+            }
+            h1 {
+                font-size: 125%;
+            }
+            .logo {
+                height: 85px;
+            }
+            .long-copy {
+                width: 100%;
+                font-size: 95%;
+                margin-left: 0%;
+                margin-bottom: 5%;
+            }
+            .btn:link,
+            .btn:visited {
+                margin-bottom: 3%;
+            }
+            .menu-box {
+                width: 100%;
+                margin-left: 0;
+            }
+            .menu-header {
+                font-size: 105%;
+                margin-bottom: 1%;
+            }
+            .menu-title {
+                font-size: 85%;
+                margin-top: 2%;
+            }
+            .menu-description {
+                font-size: 80%;
+            }
+            .menu-price {
+                font-size: 80%;
+            }
+            .plan-box {
+                width: 100%;
+                margin-left: 0%;
+            }
+            footer {
+                padding: 3%;
+                font-size: 85%;
+            }
+            .footer-nav,
+            .social-links {
+                display: inline-block;
+            }
+            .footer-nav {
+                float: left;
+            }
+            .social-links {
+                float: left;
+            }
+            .footer-nav li,
+            .social-links li {
+                display: inline-block;
+                margin-right: 20px;
+            }
+            footer p {
+                margin-top: 10px;
+            }
+        }
