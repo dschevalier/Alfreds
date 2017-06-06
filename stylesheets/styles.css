@@ -172,8 +172,8 @@ a:active {
 /*---HEADER---*/
 
 header {
-    background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.8)), to(rgba(0, 0, 0, 0.3))), url(images/hero.jpg);
-    background-image: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.3)), url(images/hero.jpg);
+    background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.8)), to(rgba(0, 0, 0, 0.3))), url(../images/hero.jpg);
+    background-image: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.3)), url(../images/hero.jpg);
     background-size: cover;
     background-position: center;
     height: 100vh;
@@ -424,8 +424,8 @@ header {
 /*---CUSTOMER FEEDBACK SECTION---*/
 
 .section-feedback {
-    background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.7)), to(rgba(0, 0, 0, 0.8))), url(images/customers-background.jpg);
-    background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.8)), url(images/customers-background.jpg);
+    background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.7)), to(rgba(0, 0, 0, 0.8))), url(../images/customers-background.jpg);
+    background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.8)), url(../images/customers-background.jpg);
     background-size: cover;
     color: #fff;
     background-attachment: fixed;
