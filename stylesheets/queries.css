@@ -195,6 +195,9 @@
                 width: 100%;
                 margin-left: 0%;
             }
+            .plan-box div {
+                padding: 15px;
+            }
             .section-feedback {
                 background-attachment: scroll;
             }
