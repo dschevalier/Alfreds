@@ -1,5 +1,5 @@
 # Alfred's
 
-A single page responsive website for a fictional bakery named Alfred’s. The site was developed with HTML5, CSS3, JQuery and JavaScript. There are simple CSS animations and hovers sprinkled throughout to help build a more engaging experience.
+Alfred's was developed as one of my first projects and its centered around a fictional bakery. It has gone through some variations and changes though the years as I experiment with new technology. Throughout the site I tried to sprinkle in some simple animations and hovers to help build a more engaging user experience. 
 
 ![dchevalier](https://dchevalier.io/src/assets/screenshots/alfreds-screen.png)
